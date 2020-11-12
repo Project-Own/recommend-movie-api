@@ -4,7 +4,6 @@ import numpy as np
 import tensorflow as tf
 
 app = Flask(__name__)
-multvae = tf.keras.models.load_model('models/multvae')
 
 @app.errorhandler(404)
 def not_found(e):
@@ -22,6 +21,7 @@ def inform():
 def Prediction(model_name):
   json = request.get_json()
 
+  multvae = tf.keras.models.load_model('models/multvae')
   if model_name=='multvae':
     vae = multvae
   else:
