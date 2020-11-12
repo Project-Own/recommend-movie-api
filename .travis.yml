@@ -10,4 +10,4 @@ deploy:
   - provider: heroku
     api_key:
       secure: GrZleoJ2UiBxRMWfe+6rcqNv03fm4/fexkjWgUHrI27aSouyQUIsHugjF8F31sf9M0+hm9BKnn85JzEk9U89P+dDeWeMueN2C33CPI503KdZHb7fUd2DLPUsA82OVWq+IoPiTzGb3n0nPRvTySxL/GFSbHxd8nhaFrbhjOaUR+ekk++t/SXiqsHz8BDPt+/buMMeS2kQyuH/+2Vx2CF+1YULzwMrgkbo57J1093/+vAcZhQhg+3kClj0hcUJADi5iNXjb14rykZWRPKLijV1Tb1E+0YxVi8PtG9iGVmJOhn8+8qK40HCVvU1/zrSOg6M9ttGNZHCJeVvuN+xX+bZla2NJr6oXFjU7U7QB6aqHv4DaoBIPHodNsrw9bLYeelF1WTC9HfsBiwWzS1Y/hej/ojM76MSD/uKikR6GfIfBsEnqhg2umg1/yD04EqidHAm1Hoivby+M42bgirHiXyoIryk2yxkv28/XDBwSwCMN6nvIh0uDJu6sIScyV+9LxMt5TztkrvcdglvZXGIKRg476GzWeZjxnIv7ry2LOKNOCec1mPMRpg16Gt2btciC1ZTE4aE3zjSM7wF7bbVlyBGD0L21e8WTSD2uzs5Xk1YG/K5bkQnUzNytoEqfaiSP4Ihuyg+X7Nx7PN3Wnx0iiIbpo8GiX69+ddtRITtyR+vpXI=
-    app: movie-recommender-api
+    app: recommend-movie-api
