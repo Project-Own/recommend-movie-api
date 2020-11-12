@@ -1,7 +1,7 @@
 language: python
 dist: xenial
 before_install:
-  - cd ./model_deployment
+  - cd ./app
 install:
   - pip install -r requirements.txt
 script:

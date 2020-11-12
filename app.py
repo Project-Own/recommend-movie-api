@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 from scipy.sparse import coo_matrix
 import numpy as np
 import tensorflow as tf
-
+import os
 app = Flask(__name__)
 
 @app.errorhandler(404)
